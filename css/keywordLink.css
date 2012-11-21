@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+a.keywordLink:link,a.keywordLink:visited {
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+	background-color: #DDD;
+	padding: 0px 5px;
+	text-align: justify;
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+}

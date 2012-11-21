@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="2.5" type="plugin" group="content">
+	<name>gu471s keywordLinks</name>
+	<author>Marcus Ullrich</author>
+	<creationDate>06 2012</creationDate>
+	<copyright>2012</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>admin@gu471.de</authorEmail>
+	<authorUrl>gu471.de</authorUrl>
+	<version>0.0.1</version>
+	<description>Linking article by metakeywords. Like(replace quotes with curly brackets): "kwl [boolen expression of keywords]", e.g. "kwl computer" or "kwl computer&amp;!(Windows|Mac)".</description>
+
+		<files target="plugins/content/keywordLinks/">
+			<filename plugin="keywordLinks">keywordLinks.php</filename>
+			<filename>css/keywordLink.css</filename>
+		</files>
+		<files>
+			<folder>css</folder>
+			<folder>languages</folder>
+			<folder>languages/en-GB</folder>
+			<folder>languages/de-DE</folder>
+		</files>
+
+		<languages folder="language">
+			<language tag="en-GB">en-GB.plg_content_keywordLinks.ini</language>
+			<language tag="de-DE">de-DE.plg_content_keywordLinks.ini</language>
+		</languages>
+	<config>
+	</config>
+</install>
